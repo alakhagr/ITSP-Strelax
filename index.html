@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Responsive Chat Box / Sterlax Team</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <style>
+  
+      html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
+      .mySlides {display:none}
+      .w3-tag, .fa {cursor:pointer}
+      .w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
+      body {
+           background-image: url("km.jpg");
+           }
+      </style>
+   <body> 
+      <input type="checkbox" id="click">
+      <label for="click">
+      <i class="fab fa-facebook-messenger"></i>
+      <i class="fas fa-times"></i>
+      </label>
+      <div class="wrapper">
+         <div class="head-text">
+            Let's chat? - Online
+         </div>
+         <div class="chat-box">
+            <div class="desc-text">
+               Please fill out the form below to start chatting with the next available agent.
+            </div>
+            <form action="#">
+               <div class="field">
+                  <input type="text" placeholder="Your Name" required>
+               </div>
+               <div class="field">
+                  <input type="email" placeholder="Email Address" required>
+               </div>
+               <div class="field textarea">
+                  <textarea cols="30" rows="10" placeholder="Explain your queries.." required></textarea>
+               </div>
+               <div class="field">
+                  <button type="submit">Start Chat</button>
+               </div>
+            </form>
+         </div>
+      </div>
+      
+   </body>
+   
+</html>
